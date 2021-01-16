@@ -1,5 +1,6 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://pierazone.github.io/style.css" rel="stylesheet"><link rel="icon" type="image/png" href="https://pierazone.github.io/resources/favicon.png"/><title>Contact</title></head><body><article class="markdown-body"><h1 id="piera-zone"><img align="left" src="https://pierazone.github.io/resources/favicon.png" alt="logo" width="40"/> &nbsp; PIERA-ZONE <a href="https://github.com/AST07/PIERA-ZONE"><img align="right" src="https://pierazone.github.io/resources/github.svg" alt="git" width="50"/></a><a class="headerlink" href="#piera-zone" title="Permanent link"></a></h1>
 <hr />
+
 <p><a href="https://pierazone.github.io/">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <a href="https://pierazone.github.io/download">DOWNLOAD</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <a href="https://pierazone.github.io/user-guide">USER GUIDE</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -9,10 +10,69 @@
 <hr />
 <h3 id="report-an-issue-github">Report an issue - <a href="https://github.com/AST07/PIERA-ZONE/issues/new">GitHub</a><a class="headerlink" href="#report-an-issue-github" title="Permanent link"></a></h3>
 <hr />
-<p style="text-align:center">
-Get in touch with us by filling the form below
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjzP2ezN3e5QjwOlf-jT2ltdWx2yJvZ2iHgjOlv4BLF96qeg/viewform?embedded=true" width="640" height="660" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+<div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #3399ff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3399ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0066ff;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #cce6ff;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="https://pierazone.herokuapp.com/" method="POST" target="_blank">
+
+    <label for="message">Message</label>
+    <textarea id="subject" name="message" placeholder="Enter a detailed description of your query for us to help you better." style="height:200px"></textarea>
+
+    <label for="email">Email</label>
+    <input type="text" id="fname" name="email" placeholder="Enter your email address if you want us to get back to you.">
+
+    <label>We will not use your email address for any purpose other than mutual communication.</label>
+
+  </br>
+  </br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</div>
 
 <hr />
 <p>Copyright © 2020 - 2021 PIERA-ZONE</p>
