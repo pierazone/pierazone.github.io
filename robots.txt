@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /resources/
+Disallow: /contact-success
+Disallow: /contact-test
 Sitemap: https://pierazone.github.io/sitemap.xml
