@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: pierazone.github.io
+Token: 8f01b76bf43bb3e98e9f36ee046cd3d816e161518707a33f0b3b8354bdf1ff02
