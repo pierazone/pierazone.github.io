@@ -15,15 +15,16 @@
 
 body {
   max-width: 980px;
-  border: 1px solid #ddd;
   outline: 1300px solid #fff;
   margin: 16px auto;
   outline-color: #171717;
+  background-color: #171717;
 }
 
 body .markdown-body
 {
   padding: 45px;
+  color:  white;
 }
 
 @font-face {
@@ -203,14 +204,14 @@ body .markdown-body
 }
 
 .markdown-body a {
-  color: #4183c4;
+  color: #99ccff;
   text-decoration: none;
 }
 
 .markdown-body a:hover,
 .markdown-body a:focus,
 .markdown-body a:active {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 .markdown-body hr {
@@ -377,14 +378,14 @@ body .markdown-body
   padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2;
-  border-bottom: 1px solid #eee;
+  /*border-bottom: 1px solid #eee;*/
 }
 
 .markdown-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #9966ff;
 }
 
 .markdown-body h3 {
@@ -418,10 +419,10 @@ body .markdown-body
 }
 
 .markdown-body hr {
-  height: 4px;
+  height: 2px;
   padding: 0;
   margin: 16px 0;
-  background-color: #e7e7e7;
+  background-color: #66ccff;
   border: 0 none;
 }
 
@@ -513,7 +514,7 @@ body .markdown-body
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(0,0,0,0.04);
+  background-color: #404040;
   border-radius: 3px;
 }
 
@@ -543,7 +544,7 @@ body .markdown-body
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f7f7f7;
+  background-color: #262626;
   border-radius: 3px;
 }
 
