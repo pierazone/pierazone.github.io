@@ -111,7 +111,7 @@ body .markdown-body
 }
 
 .markdown-body header {
-    position: absolute;
+    position: fixed;
     background-color: black;
     top: 0;
     left: 0;
