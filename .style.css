@@ -122,6 +122,25 @@ body .markdown-body
     padding-bottom: 5px;
 }
 
+.markdown-body badge {
+  display: inline; 
+  border-style: solid; 
+  border-radius: 0.5em; 
+  border-width: 1px; 
+  padding: 0.5em;
+}
+
+.markdown-body card {
+  display: block;
+  border-style: solid;
+  border-radius: 0.5em;
+  border-width: 1px;
+  padding: 0.5em;
+  text-align: center;
+  width: 30%;
+  vertical-align: middle;
+}
+
 /*temp fix*/
 .markdown-body footer_abs {
     clear: both;
