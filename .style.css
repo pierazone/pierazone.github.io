@@ -129,6 +129,25 @@ body .markdown-body
   padding: 0.5em;
 }
 
+.markdown-body badge_dd {
+  display: inline; 
+  border-style: solid; 
+  border-radius: 1.5em; 
+  border-width: 1px; 
+  padding: 1em;
+  background-image: linear-gradient(45deg, rgba(95, 51, 255), rgba(0, 204, 255));
+  color: white;
+  border-color: black;
+}
+
+.markdown-body badge_dd:hover {
+  background-image: black;
+}
+
+.markdown-body badge:hover {
+  background-color: black;
+}
+
 .markdown-body card {
   display: block;
   border-style: solid;
@@ -138,6 +157,14 @@ body .markdown-body
   text-align: center;
   width: 30%;
   vertical-align: middle;
+}
+
+.markdown-body card:hover {
+  background-image: linear-gradient(45deg, rgba(95, 51, 255), rgba(0, 204, 255));
+  color: white;
+  border-color: black;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
 }
 
 /*temp fix*/
