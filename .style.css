@@ -141,7 +141,7 @@ body .markdown-body
 }
 
 .markdown-body badge_dd:hover {
-  background-image: black;
+  border-color: white;
 }
 
 .markdown-body badge:hover {
