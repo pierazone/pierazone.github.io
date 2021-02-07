@@ -137,4 +137,12 @@ input[type=submit]:hover {
     </a>
   </div>
 </footer_abs>
-</article></body></html>
+</article>
+  <script type="text/javascript">
+    var perfEntries = performance.getEntriesByType("navigation");
+
+    if (perfEntries[0].type === "back_forward") {
+        location.reload(true);
+    }
+  </script>
+</body></html>
