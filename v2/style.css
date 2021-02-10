@@ -1,0 +1,139 @@
+body {
+	display: block;
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-family: 'Quicksand', sans-serif;
+	background-image: url("assets/bg.jpg");
+	background-size: 100%;
+	padding: 10%;
+	min-height: 100%
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}	
+}
+
+@keyframes v2-appear {
+	0% {
+		border-style: solid;
+		border-color: cyan;
+		border-radius: 2em;
+		border-width: 1px;
+		font-size: 0em;
+		opacity: 0;
+	}
+	100% {
+		border-style: solid;
+		border-color: cyan;
+		border-radius: 2em;
+		border-width: 1px;
+		font-size: 2em;
+		opacity: 1;
+	}
+}
+
+.hide {
+	opacity: 0;
+}
+
+.heading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+.heading-large {
+	flex-wrap: nowrap;
+	font-size: 3em;
+	font-family: 'Atma', cursive;
+	padding-right: 2%;
+}
+
+.title-animation {
+	animation-name: appear;
+	animation-duration: 2s;	
+	animation-fill-mode: forwards;
+}
+
+.v2-label {
+	padding-bottom: 1em;
+	color: cyan;
+}
+
+.v2-animation {
+	font-size: 0px;
+	animation-name: v2-appear;
+	animation-delay: 0.3s;
+	animation-duration: 1.7s;
+	animation-fill-mode: forwards;
+	padding: 0.5em;
+}
+
+.cs-label {
+	display: flex;
+	justify-content: center; 
+	color: orange;
+	font-size: 2em;
+}
+
+.cs-animation {
+	animation-name: appear;
+	animation-delay: 1.6s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+/*--------- Features ---------*/
+
+.features-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+}
+
+.feature {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature label{
+	flex-wrap: nowrap;
+	/*padding-right: 1%;*/
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 1.5em;
+}
+
+.feature svg,img {
+	display: block;
+	vertical-align: middle;
+}
+
+.feature-animation {
+	animation-name: appear;
+	animation-delay: 1.3s;
+	animation-duration: 1s;	
+	animation-fill-mode: forwards;
+}
+
+/*--------- Copyright ---------*/
+.copyright {
+	font-size: 1.2em;
+	color: grey;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
